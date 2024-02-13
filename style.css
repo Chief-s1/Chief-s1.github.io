@@ -416,6 +416,80 @@ p {
 
 /* End Services Section */
 
+/* certificate Section */
+
+#certificate .certificate {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#certificate .certificate-top {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#certificate .certificate-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#certificate .certificate-item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(./img/bg3.png);
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#certificate .certificate-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #32659e 0%, #f2f4f6 100%);
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#certificate .certificate-bottom .icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#certificate .certificate-item h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#certificate .certificate-item p {
+    color: white;
+    text-align: left;
+}
+
+
+/* End certificate Section */
+
+
+
 
 /* Projects section */
 
